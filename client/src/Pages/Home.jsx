@@ -1,5 +1,5 @@
 import React from "react";
-import Testimonials from "../../Components/Testimonials";
+import Testimonials from "../Components/Testimonials";
 
 const Home = () => {
   return (
