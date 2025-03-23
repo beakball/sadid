@@ -40,7 +40,7 @@ const Testimonials = () => {
         <h2 className="text-3xl font-semibold text-center mb-10">
           Testimonials
         </h2>
-        <div className="sm:flex flex-wrap justify-between space-x-4 px-4 w-[80vw] mx-auto hidden ">
+        <div className="lg:flex flex-wrap justify-between space-x-4 px-4 w-[80vw] mx-auto hidden ">
           {userReviews.map((review, i) => (
             <div
               className={`relative ${i === 1 || i === 3 ? "mt-14" : ""}`}
@@ -73,7 +73,7 @@ const Testimonials = () => {
         </div>
 
         <div className="">
-          <div className="relative w-[80vw] mx-auto hidden max-sm:block">
+          <div className="relative w-[80vw] mx-auto hidden max-lg:block">
             {/* Left Arrow */}
             <button
               className="absolute left-0 top-1/2 -translate-y-1/2 bg-white text-purple-900 p-2 rounded-full shadow-md z-10 hidden md:block"
